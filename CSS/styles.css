@@ -1,0 +1,36 @@
+body{
+    display:flex;
+    justify-content:center;
+}
+#calculator{
+    width:500px;
+    background-color: rgb(5, 2, 2);
+    border-radius: 5px;
+    padding:15px;  
+    display:flex;
+    flex-wrap: wrap;
+}
+h1{
+    color:white;
+}
+#display{
+    width:100%;
+    padding:7px;
+}
+.buttons{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.btn{
+    width: 41px;
+    height: 17px;
+    border-radius:12px;
+    font-size: 6px;
+    border:0;
+    color:white;
+    background-color: rgba(174, 171, 171, 0.162);
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
